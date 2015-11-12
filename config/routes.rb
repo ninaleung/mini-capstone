@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   get '/' => 'products#home'
   get '/display_all' => 'products#display_all'
+  get '/display_product' => 'products#display_product'
+  get '/display_one' => 'products#display_one'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
