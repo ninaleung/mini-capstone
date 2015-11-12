@@ -4,6 +4,7 @@ class ProductsController < ApplicationController
   end
 
   def display_all
+    @all_products = Product.all
   end
 
 end
